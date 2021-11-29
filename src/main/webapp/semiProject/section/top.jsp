@@ -111,7 +111,7 @@
 						</div>
 						<button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary"
 							type="submit">로그인</button>
-						<small class="text-muted">아이디가 없으세요? 1분이면 가입완료!</small>
+						<small class="text-muted">아이디가 없으세요? 1분이면 가입완료!<br></small>
 						<button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary"
 							type="button" data-bs-toggle="modal"
 							data-bs-target="#modalSignup">회원가입</button>
@@ -127,13 +127,12 @@
 							<img src="../images/facebook.png" width="16" height="16">
 							Sign up with Facebook
 						</button>
-
+						
 						<hr class="my-3">
 						<h2 class="fs-6 fw-bold mb-3">내집내꾸 판매자가 되고싶으세요?</h2>
 						<button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4"
 							type="button" data-bs-toggle="modal"
 							data-bs-target="#modalcompanySignup">판매자 가입하기</button>
-
 					</form>
 				</div>
 			</div>
@@ -155,8 +154,10 @@
 					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
 						<div class="form-floating mb-3">
 							<input class="form-control" id="id" type="text" placeholder="id"
-								data-sb-validations="required" /> <label for="아이디">아이디</label>
-							<div class="invalid-feedback" data-sb-feedback="id:required">아이디는
+								data-sb-validations="required" style="width: 70%; position:absolute;"/>
+								<label for="아이디" style="width:70%; position: inherit">아이디</label>
+								<button class="btn btn-primary btn-md" style="position: inherit">ID중복확인 </button>
+							<div class="invalid-feedback" data-sb-feedback="id:required" style="width: 50%">아이디는
 								필수항목 입니다.</div>
 						</div>
 						<div class="form-floating mb-3">
@@ -175,7 +176,7 @@
 							<input class="form-control" id="name" type="text"
 								placeholder="name" data-sb-validations="required" /> <label
 								for="이름">이름</label>
-							<div class="invalid-feedback" data-sb-feedback="이름:required">이름을
+							<div class="invalid-feedback" data-sb-feedback="name:required">이름을
 								입력해주세요.</div>
 						</div>
 						<div class="form-floating mb-3">
@@ -187,16 +188,17 @@
 						</div>
 						<div class="form-floating mb-3">
 							<input class="form-control" id="post" type="text"
-								placeholder="post" data-sb-validations="required" /> <label
-								for="우편번호">우편번호</label>
-							<div class="invalid-feedback" data-sb-feedback="post:required">우편번호가
-								없습니다.</div>
+								placeholder="post" data-sb-validations="required" style="width: 75%; position:absolute"/>
+								<label for="우편번호" style="width:75%; position: inherit">우편번호</label>
+								<button class="btn btn-primary btn-md" style="position: inherit">주소찾기 </button>
+							<div class="invalid-feedback" data-sb-feedback="post:required" style="width: 55%">
+							주소찾기를 해주세요.</div>
 						</div>
 						<div class="form-floating mb-3">
 							<input class="form-control" id="address" type="text"
 								placeholder="address" data-sb-validations="required" /> <label
 								for="주소">주소</label>
-							<div class="invalid-feedback" data-sb-feedback="address:required">주소를
+							<div class="invalid-feedback" data-sb-feedback="address:required">상세주소를
 								입력해주세요.</div>
 						</div>
 						<div class="form-floating mb-3">
@@ -204,13 +206,11 @@
 								placeholder="email" data-sb-validations="email" /> <label
 								for="이메일">이메일</label>
 							<div class="invalid-feedback" data-sb-feedback="email:email">이메일
-								형식이 맞지않습니다. Exam@gmail.com</div>
+								형식이 맞지않습니다. (Exam@gmail.com)</div>
 						</div>
 						<div class="d-none" id="submitSuccessMessage">
 							<div class="text-center mb-3">
 								<div class="fw-bolder">Form submission successful!</div>
-								<a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-							</div>
 						</div>
 						<div class="d-none" id="submitErrorMessage">
 							<div class="text-center text-danger mb-3">Error sending
