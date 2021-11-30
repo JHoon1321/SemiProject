@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+pageEncoding="UTF-8"%>
 
 <%@include file="top.jsp"%>
 <article>
 	<header class="masthead bg-primary text-white text-center">
-		<!-- 슬라이드 배너 아 이거 왜이래 -->
+		<!-- 슬라이드 배너 .-->
 		<div id="carouselExampleDark" class="carousel carousel-dark slide"
 			data-bs-ride="carousel">
 			<div class="carousel-indicators">
