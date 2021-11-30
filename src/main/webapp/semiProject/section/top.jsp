@@ -4,7 +4,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>내집내꾸</title>
@@ -14,10 +15,14 @@
 <!-- Favicon-->
 <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
 <!-- Font Awesome icons (free version)-->
-<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+	crossorigin="anonymous"></script>
 <!-- Google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"	rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+	rel="stylesheet" type="text/css" />
+<link
+	href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+	rel="stylesheet" type="text/css" />
 <!-- Core theme CSS (includes Bootstrap)-->
 <link href="../css/styles.css" rel="stylesheet" />
 </head>
@@ -25,12 +30,13 @@
 
 	<!-- Navigation-->
 	<nav
-		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+		id="mainNav">
 		<div class="container">
 			<!-- 로고 -->
 			<img src="../images/kakao.png" width="50" height="50"
-				style="margin-right: 20px" alt='로고'> 
-				<a class="navbar-brand"	href="#page-top">내집내꾸</a>
+				style="margin-right: 20px" alt='로고'> <a class="navbar-brand"
+				href="#page-top">내집내꾸</a>
 
 			<!-- 모바일버전 우측 메뉴버튼 -->
 			<button
@@ -127,7 +133,7 @@
 							<img src="../images/facebook.png" width="16" height="16">
 							Sign up with Facebook
 						</button>
-						
+
 						<hr class="my-3">
 						<h2 class="fs-6 fw-bold mb-3">내집내꾸 판매자가 되고싶으세요?</h2>
 						<button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4"
@@ -154,11 +160,13 @@
 					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
 						<div class="form-floating mb-3">
 							<input class="form-control" id="id" type="text" placeholder="id"
-								data-sb-validations="required" style="width: 70%; position:absolute;"/>
-								<label for="아이디" style="width:70%; position: inherit">아이디</label>
-								<button class="btn btn-primary btn-md" style="position: inherit">ID중복확인 </button>
-							<div class="invalid-feedback" data-sb-feedback="id:required" style="width: 50%">아이디는
-								필수항목 입니다.</div>
+								data-sb-validations="required"
+								style="width: 70%; position: absolute;" /> <label for="아이디"
+								style="width: 70%; position: inherit">아이디</label>
+							<button class="btn btn-primary btn-md" style="position: inherit">ID중복확인
+							</button>
+							<div class="invalid-feedback" data-sb-feedback="id:required"
+								style="width: 50%">아이디는 필수항목 입니다.</div>
 						</div>
 						<div class="form-floating mb-3">
 							<input class="form-control" id="pwd" type="text"
@@ -188,11 +196,13 @@
 						</div>
 						<div class="form-floating mb-3">
 							<input class="form-control" id="post" type="text"
-								placeholder="post" data-sb-validations="required" style="width: 75%; position:absolute"/>
-								<label for="우편번호" style="width:75%; position: inherit">우편번호</label>
-								<button class="btn btn-primary btn-md" style="position: inherit">주소찾기 </button>
-							<div class="invalid-feedback" data-sb-feedback="post:required" style="width: 55%">
-							주소찾기를 해주세요.</div>
+								placeholder="post" data-sb-validations="required"
+								style="width: 75%; position: absolute" /> <label for="우편번호"
+								style="width: 75%; position: inherit">우편번호</label>
+							<button class="btn btn-primary btn-md" style="position: inherit">주소찾기
+							</button>
+							<div class="invalid-feedback" data-sb-feedback="post:required"
+								style="width: 55%">주소찾기를 해주세요.</div>
 						</div>
 						<div class="form-floating mb-3">
 							<input class="form-control" id="address" type="text"
@@ -211,14 +221,15 @@
 						<div class="d-none" id="submitSuccessMessage">
 							<div class="text-center mb-3">
 								<div class="fw-bolder">Form submission successful!</div>
-						</div>
-						<div class="d-none" id="submitErrorMessage">
-							<div class="text-center text-danger mb-3">Error sending
-								message!</div>
-						</div>
-						<div class="d-grid">
-							<button class="btn btn-primary btn-lg disabled" id="submitButton"
-								type="submit">Submit</button>
+							</div>
+							<div class="d-none" id="submitErrorMessage">
+								<div class="text-center text-danger mb-3">Error sending
+									message!</div>
+							</div>
+							<div class="d-grid">
+								<button class="btn btn-primary btn-lg disabled"
+									id="submitButton" type="submit">Submit</button>
+							</div>
 						</div>
 					</form>
 				</div>
